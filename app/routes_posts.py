@@ -5,30 +5,6 @@ from dotenv import load_dotenv
 from models import Post, User
 from models import db
 
-# posts_bp = Blueprint('posts', __name__)
-
-#Routes are called @posts_bp. instead of @app. 
-# Alright, time for post routes:
-
-# First, the titles of all posts will be listed as links next to the
-# associated user on list.html.  
-
-# Now we need our routes:
-# GET /users/[user-id]/posts/new 
-#     Show form to add a post for that user new_post.html. 
-# POST /users/[user-id]/posts/new 
-#     Handle add form; add post and redirect to the user details.html page.
-# GET /posts/[post-id] 
-#     Show a post.html page with the title, content and created at datetime of the post, and 3 buttons: return to user's page, edit post and delete post. 
-# GET /posts/[post-id]/edit 
-#     Show form to edit a post edit_post.html which can edit title and/or content of post, with buttons to cancel (redirect to post.html page) or save the edit.
-# POST /posts/[post-id]/edit 
-#     Handle saving the post edit. Redirect back to the post.html view page.
-# POST /posts/[post-id]/delete
-#     Delete the post, redirect to the user's details.html page.
-
-# Can you provide updated routes_posts.py, list.html, new_post.html, post.html, and edit_post.html? Is there anything I'm overlooking?
-
 posts_bp = Blueprint('posts', __name__, url_prefix='/posts')
 
 @posts_bp.route('/<int:user_id>/new')

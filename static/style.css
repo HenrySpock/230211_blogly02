@@ -1,62 +1,62 @@
 .user-img {
     max-height: 100px;
-  }
+}
 
-  .img-wrapper {
-    width: 75px; /* or whatever width you want to use */
-    height: 100px; /* or whatever height you want to use */
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.img-wrapper {
+  width: 75px; /* or whatever width you want to use */
+  height: 100px; /* or whatever height you want to use */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .portrait {
-    width: 150px; /* or whatever width you want to use */
-    height: 200px; /* or whatever height you want to use */
-    overflow: hidden;
-    /* display: flex; */
-    display: block;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-  }
+.portrait {
+  width: 150px; /* or whatever width you want to use */
+  height: 200px; /* or whatever height you want to use */
+  overflow: hidden;
+  /* display: flex; */
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
 
-  .user-img img {
-    height: 100%;
-    width: auto;
-  }
+.user-img img {
+  height: 100%;
+  width: auto;
+}
 
-  .user-port {
-    max-height: 200px;
-    width: auto;
-  }
- 
-  .jumbotron {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
+.user-port {
+  max-height: 200px;
+  width: auto;
+}
 
-  .post {
-    font-size: 25px; 
-  }
- 
-  .nav-links {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-links li {
-    margin-right: 1rem;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-  }
+.jumbotron {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-  .nav {
-    padding: 1em 0 1em 2em;
-  }
+.post {
+  font-size: 25px; 
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.nav {
+  padding: 1em 0 1em 2em;
+}
 
